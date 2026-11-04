@@ -4,7 +4,6 @@
 
 | Файл | Тип | Что внутри | Политика |
 |---|---|---|---|
-| `lists/ads.list` | DOMAIN-SET | geosite category-ads-all | REJECT |
 | `lists/ru-blocked.list` | DOMAIN-SET | geosite ru-blocked | VPN |
 | `lists/ru-direct.list` | DOMAIN-SET | geosite category-ru + ru-available-only-inside | DIRECT |
 | `lists/ru-blocked-ip.list` | RULE-SET | geoip ru-blocked внутри российских сетей + ru-blocked-community | VPN |

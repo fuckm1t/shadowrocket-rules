@@ -25,7 +25,7 @@ jobs:
           BASE=https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box
           mkdir -p srs json
           for f in rule-set-geosite/geosite-category-ru rule-set-geosite/geosite-ru-available-only-inside \
-                   rule-set-geosite/geosite-ru-blocked rule-set-geosite/geosite-category-ads-all \
+                   rule-set-geosite/geosite-ru-blocked \
                    rule-set-geoip/geoip-ru rule-set-geoip/geoip-ru-blocked rule-set-geoip/geoip-ru-blocked-community; do
             n=$(basename $f)
             curl -sSfL -o srs/$n.srs $BASE/$f.srs

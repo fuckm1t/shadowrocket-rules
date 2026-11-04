@@ -82,8 +82,6 @@ stats["ru-direct.list"] = domain_set(
     ["geosite-category-ru", "geosite-ru-available-only-inside"])
 stats["ru-blocked.list"] = domain_set(
     "ru-blocked.list", "Заблокированные в РФ домены - через VPN", ["geosite-ru-blocked"])
-stats["ads.list"] = domain_set(
-    "ads.list", "Реклама и трекеры - REJECT", ["geosite-category-ads-all"])
 stats["ru-ip.list"] = ip_rule_set(
     "ru-ip.list", "IP-адреса РФ - DIRECT", "geoip-ru", nets("geoip-ru"))
 
