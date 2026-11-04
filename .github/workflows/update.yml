@@ -1,0 +1,45 @@
+name: Обновление списков
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # каждый день в 06:17 МСК
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установить sing-box
+        run: |
+          V=1.12.12
+          curl -sSfL https://github.com/SagerNet/sing-box/releases/download/v$V/sing-box-$V-linux-amd64.tar.gz | tar xz
+          sudo mv sing-box-$V-linux-amd64/sing-box /usr/local/bin/
+
+      - name: Скачать и распаковать rule-set runetfreedom
+        run: |
+          BASE=https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box
+          mkdir -p srs json
+          for f in rule-set-geosite/geosite-category-ru rule-set-geosite/geosite-ru-available-only-inside \
+                   rule-set-geosite/geosite-ru-blocked rule-set-geosite/geosite-category-ads-all \
+                   rule-set-geoip/geoip-ru rule-set-geoip/geoip-ru-blocked rule-set-geoip/geoip-ru-blocked-community; do
+            n=$(basename $f)
+            curl -sSfL -o srs/$n.srs $BASE/$f.srs
+            sing-box rule-set decompile srs/$n.srs -o json/$n.json
+          done
+
+      - name: Сконвертировать в формат Shadowrocket
+        run: python3 scripts/convert.py json lists
+
+      - name: Закоммитить изменения
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lists
+          git diff --cached --quiet && echo "Без изменений" && exit 0
+          git commit -m "Обновление списков $(date -u +%Y-%m-%d)"
+          git push
