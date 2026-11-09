@@ -1,6 +1,6 @@
 # Российские сервисы - DIRECT
 # Источник: runetfreedom/russia-v2ray-rules-dat (geosite-category-ru, geosite-ru-available-only-inside)
-# Записей: 876
+# Записей: 877
 .1917live.red
 .24h.tv
 .2gis.ae
@@ -429,6 +429,7 @@
 .opennet.dev
 .oskelly.co
 .ostin.com
+.otzovik.com
 .ozon.app
 .ozon.by
 .ozon.com
