@@ -1,6 +1,6 @@
 # Российские сервисы - DIRECT
 # Источник: runetfreedom/russia-v2ray-rules-dat (geosite-category-ru, geosite-ru-available-only-inside)
-# Записей: 877
+# Записей: 878
 .1917live.red
 .24h.tv
 .2gis.ae
@@ -366,6 +366,7 @@
 .medrocket.me
 .medsi.com
 .medsi.pro
+.megabitus.com
 .megafon.com
 .megamarket.tech
 .mel.fm
