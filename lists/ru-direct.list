@@ -1,6 +1,6 @@
 # Российские сервисы - DIRECT
 # Источник: runetfreedom/russia-v2ray-rules-dat (geosite-category-ru, geosite-ru-available-only-inside)
-# Записей: 878
+# Записей: 879
 .1917live.red
 .24h.tv
 .2gis.ae
@@ -694,6 +694,7 @@
 .unirest.tech
 .userapi.com
 .usocial.pro
+.vigo.tech
 .vimu.tv
 .viqeo.tv
 .viqeotv.com
