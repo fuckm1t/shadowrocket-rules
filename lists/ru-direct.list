@@ -1,6 +1,6 @@
 # Российские сервисы - DIRECT
 # Источник: runetfreedom/russia-v2ray-rules-dat (geosite-category-ru, geosite-ru-available-only-inside)
-# Записей: 879
+# Записей: 878
 .1917live.red
 .24h.tv
 .2gis.ae
@@ -851,7 +851,6 @@
 .yandexgo.com
 .yandexmetrica.com
 .yandexwebcache.net
-.yandexwebcache.org
 .yango-ads.com
 .yango-b2b.com
 .yango-team.com
