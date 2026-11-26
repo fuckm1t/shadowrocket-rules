@@ -1,6 +1,6 @@
 # Российские сервисы - DIRECT
 # Источник: runetfreedom/russia-v2ray-rules-dat (geosite-category-ru, geosite-ru-available-only-inside)
-# Записей: 878
+# Записей: 896
 .1917live.red
 .24h.tv
 .2gis.ae
@@ -22,6 +22,7 @@
 .accesspoint.uz
 .acmvid.com
 .actualidad-rt.com
+.admkamyshin.info
 .adsadvisor.io
 .adygtelecom.com
 .ahilesva.info
@@ -52,6 +53,7 @@
 .bank131.com
 .baranky.com
 .bargipsy.com
+.barnaul.org
 .beeline.tv
 .beget.app
 .beget.cloud
@@ -126,6 +128,7 @@
 .dert.tech
 .dev-my.com
 .dev-my.games
+.devmachine.ai
 .dodois.com
 .dodois.io
 .dodopizza.com
@@ -216,6 +219,7 @@
 .gismeteo.st
 .gogettaxi.org
 .goicq.org
+.goodline.info
 .gorzdrav.org
 .goup.ai
 .gramotei.online
@@ -342,8 +346,11 @@
 .kaspersky.ro
 .kaspersky.rs
 .kaspersky.se
+.kaspiysk.org
+.kchr.info
 .keyboardmen.com
 .khangar.net
+.khural.org
 .kinescopecdn.net
 .kinorium.com
 .knightspeak.com
@@ -367,6 +374,7 @@
 .medsi.com
 .medsi.pro
 .megabitus.com
+.megafon.cloud
 .megafon.com
 .megamarket.tech
 .mel.fm
@@ -393,6 +401,7 @@
 .mpgw-my.com
 .mradx.net
 .mts-ws.net
+.murom.info
 .mvk.com
 .my-manager-account.com
 .my.com
@@ -412,6 +421,9 @@
 .ngenix.net
 .noticias-rt.com
 .notimundo.press
+.novoshakhtinsk.org
+.ntagil.org
+.o7.com
 .odnoklasniki.by
 .odnoklasniki.ua
 .odnoklassniki.am
@@ -429,6 +441,7 @@
 .okolo.app
 .opennet.dev
 .oskelly.co
+.oskol.city
 .ostin.com
 .otzovik.com
 .ozon.app
@@ -460,6 +473,7 @@
 .perekrestok.com
 .pixonic.com
 .pobeda.page
+.podryad.tv
 .polza.ai
 .popmechanic.io
 .poudobnee.com
@@ -483,6 +497,7 @@
 .rbsuat.com
 .rbth.com
 .reaviz.com
+.redcom.net
 .reg.cloud
 .reg.com
 .renins.com
@@ -546,6 +561,7 @@
 .ru.ccb.com
 .ru.com
 .ru.net
+.rubtsovsk.org
 .rugpt.io
 .ruhub.tv
 .runewsrt.com
@@ -601,6 +617,7 @@
 .smena.cafe
 .smotreshka.tv
 .sn-esp.site
+.sobranie.info
 .sokolov.io
 .sourcecraft.dev
 .spasibo.digital
@@ -874,6 +891,7 @@
 .youla.io
 .yourgood.app
 .zapishu.me
+.zsttk.net
 .zvuk-b2b.com
 .zvuk.com
 kp-config-smart-tv.akamaized.net
